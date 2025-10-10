@@ -1,0 +1,60 @@
+body{
+    min-height: 100vh;;
+display: flex;
+  justify-content: center;
+  align-self: center;
+
+}
+
+.container{ 
+height:440px;
+width:340px;
+margin: auto;
+display: flex;
+flex-direction: column;
+background-color: #d3d3d3;
+border: 5px solid grey;
+border-radius: 10%;
+padding: 10px;
+padding-top: 20px;
+}
+
+.DisplayBar{
+background-color: #81f481;
+height:60px;
+border-radius: 10%;
+  flex-shrink: 0;
+}
+
+.Section1,.Section2,.Section3,.Section4,.Section5{
+padding-top: 10px;
+    display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: space-around;
+}
+
+button{
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    width:75px;
+    height:65px;
+}
+.Section5{
+    justify-content: left;
+    gap:10px;
+    padding-left: 5px;
+}
+img{
+    height: 17px;
+}
+.symbol{
+    background-color: rgb(123, 168, 140);
+}
+.clear, img{
+    color:red;
+}
+.DisplayBar{
+    font-size: 300%;
+}
