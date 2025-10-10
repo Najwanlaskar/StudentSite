@@ -1,0 +1,17 @@
+
+.container{
+height: 520px;
+width: 520px;
+ border: 2px solid green;
+display: flex;
+flex-wrap: wrap;
+background-color: rgb(242, 247, 243);
+
+}
+body{
+    background-color: rgb(165, 255, 172);
+}
+.square{
+box-sizing: border-box;
+margin:1px;
+}
