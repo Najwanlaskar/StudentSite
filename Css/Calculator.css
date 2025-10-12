@@ -1,6 +1,37 @@
 body{
+    background-color: rgb(89, 219, 245);
+    color:white;
+font-family:'ArialRounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+.Links{
+    display: flex;
+    gap:35px;
+    justify-content: space-between;
+    font-size: x-large;
+}
+a,li{
+list-style: none;
+    color:white;
+font-weight: bolder;
+font-size: x-large;
+}
+
+.Nav-bar{
+    display: flex;
+    border: 2px solid white;
+    justify-content: space-evenly;
+    margin-top: 0;
+    font-size: x-large;
+}
+
+.logo{
+    font:larger;
+    margin: 15px;
+}
+body{
     min-height: 100vh;;
 display: flex;
+flex-direction: column;
   justify-content: center;
   align-self: center;
 
@@ -20,7 +51,7 @@ padding-top: 20px;
 }
 
 .DisplayBar{
-background-color: #81f481;
+background-color: #fdfdec;
 height:60px;
 border-radius: 10%;
   flex-shrink: 0;
@@ -57,4 +88,17 @@ img{
 }
 .DisplayBar{
     font-size: 300%;
+}
+.Section1 button{
+    background-color: #ff9393;
+}
+.Section2 button{
+    background-color: #fbf186;
+}
+.Section3 button{
+    background-color: #a6f0a6;
+}.Section4 button{
+    background-color: #a88bea;
+}.Section5 button{
+    background-color: #ed8df3;
 }
