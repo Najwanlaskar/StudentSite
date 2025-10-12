@@ -2,6 +2,7 @@
 const Container=document.querySelector(".container");
 const btn=document.querySelector(".Display");
 const colbtn=document.querySelector(".color");
+const clear=document.querySelector(".Clear")
 
 let containerSize=520;
 let size=16;
@@ -51,6 +52,9 @@ if(rainbow)
       }
 })
 
-
+clear.textContent="Clear"
+clear.addEventListener("click",(e)=>{
+CreateColumn(size)
+})
 CreateColumn(size)
 

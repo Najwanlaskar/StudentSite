@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(221, 112, 112);
+    background-color: rgb(48, 215, 62);
     color:white;
 font-family:'ArialRounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 font-size: x-large;
@@ -37,10 +37,24 @@ flex-wrap: wrap;
 background-color: rgb(242, 247, 243);
 
 }
-body{
-    background-color: rgb(165, 255, 172);
-}
 .square{
 box-sizing: border-box;
 margin:1px;
+}
+.Buttons{
+    display: flex;
+    flex-direction: column;
+}
+.Display, .color, .Clear{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.Page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: r;
 }
