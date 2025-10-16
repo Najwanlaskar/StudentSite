@@ -3,6 +3,7 @@ body{
     color:white;
 font-family:'ArialRounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 font-size: x-large;
+
 }
 .Links{
     display: flex;
@@ -26,4 +27,17 @@ font-weight: bolder;
 .logo{
     font:larger;
     margin: 15px;
+}
+.Container{
+    background-color: rgb(255, 253, 253);
+    height: 750px;
+    width: 650px;
+}
+.Page{
+    display: flex;
+    align-items: center;
+    flex: auto;
+    justify-content: center;
+    border: 2px red solid;
+    height:1000px;
 }
