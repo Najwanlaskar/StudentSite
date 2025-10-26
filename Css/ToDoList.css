@@ -10,7 +10,7 @@ font-size: x-large;
     gap:35px;
     justify-content: space-between;
 }
-a,li{
+a, .Header{
 list-style: none;
 color: white;
 font-weight: bolder;
@@ -44,7 +44,7 @@ font-weight: bolder;
     color: blueviolet;
     font-weight: bold;
 }
-.Header{
+.title{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,5 +73,33 @@ display: flex;
         font: 50px;
         font-size: 20px;
         font-weight: bold;
+}
+ul li{
+    list-style: none;
+font-size: 17px;
+padding: 12px 8px 12px 50px;
+user-select: none;
+cursor: pointer;
+position: relative;
 
 }
+.Page ul li::before{
+content: ' ';
+position: absolute;
+height: 28px;
+width: 28px;
+border-radius: 50%;
+background-image: url(../Img/unchecked.png);
+background-size: cover;
+background-position: center;
+top: 12px;
+left: 8px;
+}
+.Page ul li.ticked{
+    color: grey;
+    text-decoration: line-through;
+}
+.Page ul li.ticked::before{
+background-image: url(../Img/checked.png);
+}
+
