@@ -1,5 +1,7 @@
 # StudentSite
-I'm going to create a website that allows students to utilise a Pomodora clock as well as with other helpful tools to aid them.
+
+My project includes a Pomodoro website which contains a 25 minute timer with a calculator, to do list and a etch and sketch game to relax, The overall aim of this website is to aid students in their studies.
+ 
 //add live website 
 
 alt tag
