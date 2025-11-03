@@ -1,18 +1,31 @@
 # StudentSite
 
-My project includes a Pomodoro website which contains a 25 minute timer with a calculator, to do list and a etch and sketch game to relax, The overall aim of this website is to aid students in their studies.
- 
-//add live website 
-
-alt tag
-
-How It's Made:
-Tech used: HTML, CSS, JavaScript,
-
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write something. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+StudentSite is a productivity web app designed to help students stay focused and organized. It features a 25-minute Pomodoro timer, a basic calculator, a to-do list, and an Etch-a-Sketch-style game for relaxation.
+Live Demo: https://najwanlaskar.github.io/StudentSite/
 
 
-You don't have to include this section but interviewers love that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are GREAT to bring up in interviews and you can use this section as reference when studying for technical interviews!
+## 🛠 Tech Stack
+- HTML
+- CSS
+- JavaScript
 
-Lessons Learned:
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those whoa this is awesome or wow I actually did it! moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+## ⚙️ Features & Implementation
+
+I designed StudentSite to combine essential study tools with stress-relief elements not commonly found in other Pomodoro apps:
+- Pomodoro Timer: Uses JavaScript intervals to count down from 25 minutes.
+- Calculator: Performs basic arithmetic operations triggered by button clicks.
+- To-Do List: Allows task creation and stores them in local storage for persistence.
+- Etch-and-Sketch Game: Generates a customizable grid (default 16×16) that responds to hover events for creative breaks.
+
+## 🚀 Optimization
+Although I initially planned to use a database for persistent storage, I opted for local storage to simplify architecture and improve performance. This choice suits single-user use cases and keeps the app lightweight. Future updates may include database integration for multi-user support.
+
+## 🔮 Future Plans
+- Add user authentication and database support for secure, cross-device data access
+- Introduce customizable timer presets (e.g., 50/10, 90/30)
+- Improve UI/UX with animations and accessibility features
+
+## 📚 Lessons Learned
+- Implemented local storage for persistent client-side data
+- Connected UI elements to JavaScript functions via event listeners
+- Built interactive components like hover-based grid drawing
