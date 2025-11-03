@@ -55,6 +55,7 @@ background-color: #fdfdec;
 height:60px;
 border-radius: 10%;
   flex-shrink: 0;
+  color: black;
 }
 
 .Section1,.Section2,.Section3,.Section4,.Section5{
